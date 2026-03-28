@@ -144,27 +144,25 @@ The project uses the **Book-Crossing Dataset**, split into three CSV files. Down
 
 ## 🗂️ Project Structure
 ```text
-Book_Recommendation_AI/
+├── README.md                                 # You are here!!
+|
+├── Book_Recommendation_AI/                   # Main project folder
+│   ├── Books Recommendation System using ML.ipynb
+│   ├── app.py
 │
-├── Books Recommendation System using ML.ipynb
-├── app.py
+│   ├── popular.pkl
+│   ├── pt.pkl
+│   ├── similarity_scores.pkl
 │
-├── popular.pkl
-├── pt.pkl
-├── similarity_scores.pkl
+│   ├── Books.csv
+│   ├── Ratings.csv
+│   ├── Users.csv
 │
-├── Books.csv
-├── Ratings.csv
-├── Users.csv
-│
-├── First 10 Books Recommendation.png
-├── Second 10 Books Recommendation .png
-├── Third 10 Books Recommendation.png
-├── Fourth 10 Books Recommendation.png
-├── Fifth 10 Books Recommendation.png
-│
-└── README.md
-
+│   ├── First 10 Books Recommendation.png
+│   ├── Second 10 Books Recommendation.png
+│   ├── Third 10 Books Recommendation.png
+│   ├── Fourth 10 Books Recommendation.png
+│   └── Fifth 10 Books Recommendation.png
 ---
 
 ## 🚀 Getting Started
